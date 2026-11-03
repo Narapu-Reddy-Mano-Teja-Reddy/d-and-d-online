@@ -1,0 +1,6 @@
+{
+  "name": "Divine Drops - Luxury Shopping UAE",
+  "description": "Premium multi-category destination for fashion, beauty, electronics, accessories, home essentials, and gifts across the UAE and GCC.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

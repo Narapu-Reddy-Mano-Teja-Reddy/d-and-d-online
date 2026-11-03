@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-serif: 'Playfair Display', Georgia, serif;
+    --font-display: 'Cinzel', 'Playfair Display', serif;
+    --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: #FAF8F5;
+    color: #1c1917;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, .font-serif {
+    font-family: var(--font-serif);
+  }
+
+  .font-brand {
+    font-family: var(--font-display);
+  }
+}
+
+/* Custom gold gradient utilities */
+.gold-gradient-text {
+  background: linear-gradient(135deg, #ECC974 0%, #D4AF37 40%, #B88E28 75%, #F7E7A9 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gold-gradient-bg {
+  background: linear-gradient(135deg, #DFC16E 0%, #C5A059 50%, #9D7B32 100%);
+}
+
+.gold-shimmer {
+  background: linear-gradient(90deg, #b8860b 0%, #e6ca65 50%, #b8860b 100%);
+}
+
+.subtle-scroll::-webkit-scrollbar {
+  height: 4px;
+  width: 6px;
+}
+.subtle-scroll::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+.subtle-scroll::-webkit-scrollbar-thumb {
+  background: #d4af37;
+  border-radius: 9999px;
+}
